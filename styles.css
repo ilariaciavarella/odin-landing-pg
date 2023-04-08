@@ -1,9 +1,26 @@
+/* GENERAL */
+
 body {
     font-family: 'Roboto', 'Helvetica', sans-serif;
     font-weight: 400;
     margin: 0;
     background-color: #F7F7F5;
 }
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+button {
+    background-color: #D15656;
+    color: #F7F7F5;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 8px 32px;
+}
+
+/* background */
 
 header, .sect1, footer {
     background-color: #004F52;
@@ -12,6 +29,8 @@ header, .sect1, footer {
 .sect3 {
     background-color: #CBCAC8;
 }
+
+/* HEADER */
 
 header {
     padding: 24px 240px;
@@ -42,27 +61,96 @@ nav a {
 
 }
 
+/* SECTION 1 */
+
 .sect1 {
-    padding: 120px 240px;
+    padding: 64px 240px;
     display: flex;
     gap: 48px;
+}
+
+.main-img {
+    width: 85vw;
+    height: 400px;
+    object-fit: cover;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F7F7F5;
-    margin-top: 0;
-    margin-bottom: 8px;
+    margin: 0;
 }
 
-p {
-    font-size: 18px;
-    font-weight: 400;
+.sect1 p {    
     color: #CBCAC8;
+    margin: 24px 0;
+}
+
+.sect1 button {
+    border: none;
+}
+
+/* SECTION 2 */
+
+.sect2 {
+    padding: 64px 0; 
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #004F52;
+    margin: 0;
+}
+
+.container {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+}
+
+.sect2 p {
+    margin: 8px 0 0 0;
+    color: #162121;
 }
 
 .sect2 img {
-    width: 100px;
-    height: auto;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 5px solid #D15656;
+}
+
+/* SECTION 3 */
+
+/* SECTION 4 */
+.sect4 {
+    background-color: #D15656;
+    border-radius: 20px;
+    margin: 64px 240px;
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sect4 button {
+    border: 2px solid #F7F7F5;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 48px 0;
+    color: #F7F7F5;
+    font-size: 14px;
 }
