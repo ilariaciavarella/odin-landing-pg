@@ -10,6 +10,7 @@ body {
 p {
     font-size: 18px;
     font-weight: 400;
+    margin: 0;
 }
 
 button {
@@ -24,10 +25,6 @@ button {
 
 header, .sect1, footer {
     background-color: #004F52;
-}
-
-.sect3 {
-    background-color: #CBCAC8;
 }
 
 /* HEADER */
@@ -94,7 +91,7 @@ h1 {
 /* SECTION 2 */
 
 .sect2 {
-    padding: 64px 0; 
+    padding: 80px 0; 
 }
 
 h2 {
@@ -131,13 +128,30 @@ h2 {
 }
 
 /* SECTION 3 */
+.sect3 {
+    background-color: #CBCAC8;
+    padding: 120px 320px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
 
 /* SECTION 4 */
 .sect4 {
     background-color: #D15656;
     border-radius: 20px;
     margin: 64px 240px;
-    padding: 32px 0;
+    padding: 48px 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -145,6 +159,19 @@ h2 {
 
 .sect4 button {
     border: 2px solid #F7F7F5;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F7F7F5;
+    margin: 0;
+}
+
+.sect4 p {
+    font-weight: 300;
+    color: #F7F7F5;
+    margin: 8px 0 0 0;
 }
 
 /* FOOTER */
